@@ -1,0 +1,96 @@
+.buy-now {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  font-family: 'Georgia', serif;
+  color: #333;
+}
+
+.buy-now-container {
+  width: 70%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Styling */
+.buy-now-content {
+  text-align: center;
+}
+
+.product-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.product-price {
+  font-size: 1.2em;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.buy-now-button, .payment-option-button, .confirm-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.buy-now-button:hover, .payment-option-button:hover, .confirm-button:hover {
+  background-color: #0056b3;
+}
+
+/* Address and Payment Fields */
+.quantity-input, .address-input, .card-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Success Alert */
+.success-alert {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #28a745;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  animation: slideIn 0.5s ease-in-out forwards;
+}
+
+.success-alert .alert-content {
+  display: flex;
+  align-items: center;
+}
+
+.success-alert .alert-icon {
+  margin-right: 10px;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+

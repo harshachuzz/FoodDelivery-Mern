@@ -1,0 +1,54 @@
+.hero{
+    display: flex;
+    background-color: rgb(254, 253, 253);
+    color: #0b0b0b;
+    height: 92vh;
+    padding-inline: 30px;
+}
+.hero-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.hero-text{
+    font-size: 3rem;
+    margin-bottom: 5px;
+    word-spacing: 1%;
+    margin-right: auto;
+    color: black;
+}
+.hero-description{
+    font-size: 1.2rem;
+    max-width: 400px;
+    margin-bottom: 20px;
+    color: black;
+}
+.hero-image{
+    flex: 1;
+    background: url('https://media-cdn.grubhub.com/image/upload/f_auto,fl_lossy,q_auto,c_crop,g_north_west,h_1400,w_1500/v1656688653/homepage/DfxwD.png') center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 300%;
+   
+}
+.hero-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 10px; /* Smaller padding for a small button */
+    /* background-color: black;  */
+    color: rgb(241, 9, 9);
+    text-decoration: none;
+    border-radius: 3px; /* Slightly smaller border radius */
+    font-size: 14px; /* Smaller font size */
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    /* background-color: #333; */
+  } 
+  
+  
+  /* https://braise.qodeinteractive.com/wp-content/uploads/2024/03/insta-img3.jpg */

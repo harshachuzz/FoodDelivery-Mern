@@ -1,0 +1,76 @@
+
+ .add-product-main {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+   
+   .add-product-head {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+   
+ 
+   form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .labell {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .inputt, .textareaa {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .inputt:focus, .textareaa:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .textareaa {
+    height: 120px;
+    resize: vertical;
+  } 
+  
+  
+   button[type="submit"] {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #080808;
+    transform: scale(1.05);
+  } 
+  
+  
+   @media (max-width: 768px) {
+    .add-product-main {
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+   

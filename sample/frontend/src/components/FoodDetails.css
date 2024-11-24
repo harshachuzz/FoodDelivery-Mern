@@ -1,0 +1,104 @@
+/* Container Styling */
+.food-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Loading and Not Found Messages */
+.loading-message,
+.not-found-message {
+  font-size: 1.2rem;
+  color: #999;
+  margin-top: 20px;
+}
+
+/* Food Title */
+.food-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Food Image */
+.food-image {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Food Details */
+.food-info {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.food-info p {
+  margin: 5px 0;
+}
+
+/* Price Styling */
+.food-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff6347;
+  margin-top: 10px;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Button Styling */
+.buy-now-button,
+.add-to-cart-button,
+.remove-from-cart-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+.buy-now-button {
+  background-color: #ff6347;
+}
+
+.add-to-cart-button {
+  background-color: #28a745;
+}
+
+.remove-from-cart-button {
+  background-color: #dc3545;
+}
+
+/* Hover Effects */
+.buy-now-button:hover {
+  background-color: #f56342;
+}
+
+.add-to-cart-button:hover {
+  background-color: #218838;
+}
+
+.remove-from-cart-button:hover {
+  background-color: #c82333;
+}

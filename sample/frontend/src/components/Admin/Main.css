@@ -1,0 +1,167 @@
+/* CSS Styling */
+.container {
+    padding: 20px;
+  }
+  
+  .HomeMainBody {
+    display:inline-block;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bodyinner {
+    text-align: center; /* Centers inline-block cards */
+  }
+  
+  .body-card {
+    display: inline-block; /* Allows cards to align in rows */
+    vertical-align: top; /* Aligns cards at the top */
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  
+  .body-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ProductImg {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .ProductDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .ProductCategory {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  
+  .ProductDishName {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+  }
+  
+  .ProductPrice {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+  
+  .CartButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .CartButton:hover {
+    background-color: #2980b9;
+  }
+  /* Container */
+.container {
+    padding: 20px;
+    overflow: hidden; /* Hides overflow */
+  }
+  
+  /* Carousel Wrapper */
+  .carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth; /* Smooth scrolling */
+    gap: 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Card Styling */
+  .body-card {
+    flex: 0 0 auto; /* Ensures cards don’t shrink */
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .body-card:hover {
+    transform: scale(1.05); /* Scales slightly on hover */
+  }
+  
+  .ProductImg {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .ProductDetails {
+    margin-bottom: 10px;
+  }
+  
+  .ProductCategory {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  
+  .ProductDishName {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+  }
+  
+  .ProductPrice {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+  
+  .CartButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .CartButton:hover {
+    background-color: #2980b9;
+  }
+  

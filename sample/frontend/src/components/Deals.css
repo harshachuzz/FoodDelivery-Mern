@@ -1,0 +1,32 @@
+/* src/styles/Deals.css */
+.deals-page {
+    padding: 20px;
+    text-align: center;
+}
+
+.deals-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.deal-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    padding: 15px;
+    text-align: left;
+}
+
+.deal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.deal-price {
+    font-weight: bold;
+    color: #28a745;
+}
